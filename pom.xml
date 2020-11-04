@@ -1,0 +1,53 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>gr.dgk.public.microservices</groupId>
+	<artifactId>grecaptcha-microservice</artifactId>
+	<version>1.11.20</version>
+	<name>Google reCaptcha microservice</name>
+	<description>It implements the functionality of the Google reCaptcha into a spring-boot microservice.</description>
+	<developers>
+		<developer>
+			<name>Dimitris G. Kelaidonis</name>
+			<email>kelaidonis@gmail.com</email>
+			<organization>-</organization>
+			<organizationUrl>https://www.linkedin.com/in/dgkelaidonis/</organizationUrl>
+		</developer>
+	</developers>
+
+	<parent>
+		<groupId>org.springframework.boot</groupId>
+		<artifactId>spring-boot-starter-parent</artifactId>
+		<version>2.3.0.RELEASE</version>
+	</parent>
+
+	<!-- project specific properties -->
+	<properties>
+		<java.version>1.8</java.version>
+		<unirest.version>3.7.00</unirest.version>
+	</properties>
+
+	<!-- project's dependencies -->
+	<dependencies>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-web</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.konghq</groupId>
+			<artifactId>unirest-java</artifactId>
+			<version>${unirest.version}</version>
+		</dependency>
+	</dependencies>
+
+	<!-- project's build configuration -->
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.springframework.boot</groupId>
+				<artifactId>spring-boot-maven-plugin</artifactId>
+			</plugin>
+		</plugins>
+	</build>
+</project>
