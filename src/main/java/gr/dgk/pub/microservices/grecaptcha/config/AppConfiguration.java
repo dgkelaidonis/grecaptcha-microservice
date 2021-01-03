@@ -1,4 +1,4 @@
-package gr.dgk.microservices.grecaptcha.config;
+package gr.dgk.pub.microservices.grecaptcha.config;
 
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;

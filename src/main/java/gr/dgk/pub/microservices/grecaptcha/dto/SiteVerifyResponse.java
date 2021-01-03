@@ -1,4 +1,4 @@
-package gr.dgk.microservices.grecaptcha.dto;
+package gr.dgk.pub.microservices.grecaptcha.dto;
 
 import java.util.List;
 

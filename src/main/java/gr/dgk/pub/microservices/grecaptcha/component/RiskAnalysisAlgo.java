@@ -1,4 +1,4 @@
-package gr.dgk.microservices.grecaptcha.component;
+package gr.dgk.pub.microservices.grecaptcha.component;
 
 import org.springframework.stereotype.Component;
 

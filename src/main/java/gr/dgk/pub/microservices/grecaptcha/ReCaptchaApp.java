@@ -1,4 +1,4 @@
-package gr.dgk.microservices.grecaptcha;
+package gr.dgk.pub.microservices.grecaptcha;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

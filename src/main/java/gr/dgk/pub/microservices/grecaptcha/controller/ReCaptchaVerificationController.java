@@ -1,4 +1,4 @@
-package gr.dgk.microservices.grecaptcha.controller;
+package gr.dgk.pub.microservices.grecaptcha.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
@@ -12,10 +12,10 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 
-import gr.dgk.microservices.grecaptcha.component.RiskAnalysisAlgo;
-import gr.dgk.microservices.grecaptcha.config.GoogleReCaptchaPropeties;
-import gr.dgk.microservices.grecaptcha.dto.ReCaptchaServiceResponse;
-import gr.dgk.microservices.grecaptcha.dto.SiteVerifyResponse;
+import gr.dgk.pub.microservices.grecaptcha.component.RiskAnalysisAlgo;
+import gr.dgk.pub.microservices.grecaptcha.config.GoogleReCaptchaPropeties;
+import gr.dgk.pub.microservices.grecaptcha.dto.ReCaptchaServiceResponse;
+import gr.dgk.pub.microservices.grecaptcha.dto.SiteVerifyResponse;
 import kong.unirest.Unirest;
 
 /**

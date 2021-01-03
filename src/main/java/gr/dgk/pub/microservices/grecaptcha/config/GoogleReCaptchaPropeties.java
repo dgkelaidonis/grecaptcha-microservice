@@ -1,4 +1,4 @@
-package gr.dgk.microservices.grecaptcha.config;
+package gr.dgk.pub.microservices.grecaptcha.config;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.stereotype.Component;
